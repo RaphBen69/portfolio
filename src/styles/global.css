@@ -176,6 +176,13 @@ h5 {
 	font-size: var(--text-xl);
 }
 
+table, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+	text-align: left;
+	padding: 10px;
+  }
+
 /* Utilities */
 
 .sr-only {
