@@ -43,12 +43,12 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 				textLinks.map(({ label, href }) => (
 					<li>
 						<a
-							aria-current={Astro.url.pathname.replace("/", "") === href.replace("/", "")}
+							aria-current={Astro.url.pathname.replaceAll("/", "") === href.replaceAll("/", "")}
 							class:list={[
 								'link',
 								{
 									active:
-										Astro.url.pathname.replace("/", "") === href.replace("/", ""),
+										Astro.url.pathname.replaceAll("/", "") === href.replaceAll("/", ""),
 								},
 							]}
 							href={href}
@@ -80,17 +80,17 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 				textLinks.map(({ label, href }) => (
 					<li>
 						<a
-							aria-current={Astro.url.pathname.replace("/", "") === href.replace("/", "")}
+							aria-current={Astro.url.pathname.replaceAll("/", "") === href.replaceAll("/", "")}
 							class:list={[
 								'link',
 								{
 									active:
-										Astro.url.pathname.replace("/", "") === href.replace("/", ""),
+										Astro.url.pathname.replaceAll("/", "") === href.replaceAll("/", ""),
 								},
 							]}
 							href={href}
 						>
-							{Astro.url.pathname.replace("/", "") + " - " + href.replace("/", "")}
+							{label}
 						</a>
 					</li>
 				))
