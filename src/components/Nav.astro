@@ -43,12 +43,12 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 				textLinks.map(({ label, href }) => (
 					<li>
 						<a
-							aria-current={Astro.url.pathname === href}
+							aria-current={Astro.url.pathname.replace("/", "") === href.replace("/", "")}
 							class:list={[
 								'link',
 								{
 									active:
-										Astro.url.pathname === href,
+										Astro.url.pathname.replace("/", "") === href.replace("/", ""),
 								},
 							]}
 							href={href}
@@ -80,17 +80,17 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 				textLinks.map(({ label, href }) => (
 					<li>
 						<a
-							aria-current={Astro.url.pathname === href}
+							aria-current={Astro.url.pathname.replace("/", "") === href.replace("/", "")}
 							class:list={[
 								'link',
 								{
 									active:
-										Astro.url.pathname === href,
+										Astro.url.pathname.replace("/", "") === href.replace("/", ""),
 								},
 							]}
 							href={href}
 						>
-							{Astro.url.pathname + " - " + href}
+							{label}
 						</a>
 					</li>
 				))
