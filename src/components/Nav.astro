@@ -90,7 +90,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 							]}
 							href={href}
 						>
-							{label}
+							{Astro.url.pathname + " - " + href}
 						</a>
 					</li>
 				))
