@@ -6,8 +6,8 @@ import type { iconPaths } from './IconPaths';
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Home', href: '/portfolio/' },
-	{ label: 'Projets', href: '/portfolio/work/' },
-	{ label: 'About', href: '/portfolio/about/' },
+	{ label: 'Projets', href: '/portfolio/work' },
+	{ label: 'About', href: '/portfolio/about' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -24,7 +24,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 
 <nav>
 	<div class="menu-header">
-		<a href="/" class="site-title">
+		<a href="/portfolio" class="site-title">
 			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
 			Raphael Benedetto
 		</a>
