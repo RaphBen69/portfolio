@@ -9,6 +9,7 @@ description: |
 tags:
   - Unity
   - WebGL
+  - AssetBundles
   - Javascript
   - JSON
 ---
@@ -27,6 +28,7 @@ Une communication a été mise en place avec des message JSON entre Unity et Vue
       <li>Etiquettes montrant les informations des blocs au survol
       <li>Coloration des blocs ou des espaces suivant les données reçues
       <li>Eclairage simulant le soleil en fonction de l'heure des données
+      <li>Gestion des AssetBundles pour télécharger les objets des étages
     </ul>
   </p>
 </div>
