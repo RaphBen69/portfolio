@@ -1,5 +1,5 @@
 ---
-title: Ravage K1S1
+title: Ravage K1S1 - 2023
 publishDate: 2023-01-15 00:00:00
 img: /portfolio/assets/RavageK1S1.jpg
 img_alt: Jeux VR Ravage K1S1

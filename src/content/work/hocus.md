@@ -1,5 +1,5 @@
 ---
-title: Hocus Puzzle
+title: Hocus Puzzle - 2017
 publishDate: 2017-05-24 00:00:00
 img: /portfolio/assets/HocusPuzzle.jpg
 img_alt: Bigpoint - Hocus Puzzle

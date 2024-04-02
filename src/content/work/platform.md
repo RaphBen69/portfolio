@@ -1,5 +1,5 @@
 ---
-title: Félicité Smart Data Services
+title: Félicité Smart Data Services - 2023
 publishDate: 2023-12-15 00:00:00
 img: /portfolio/assets/U2P-Platform.jpg
 img_alt: Application WebGl Félicité

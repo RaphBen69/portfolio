@@ -1,5 +1,5 @@
 ---
-title: ANR Mobiles
+title: ANR Mobiles - 2024
 publishDate: 2024-03-28 00:00:00
 img: /portfolio/assets/ANR-Mobiles.jpg
 img_alt: Application ANR-Mobiles

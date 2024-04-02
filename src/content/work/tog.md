@@ -1,5 +1,5 @@
 ---
-title: Trails of Gold
+title: Trails of Gold - 2021
 publishDate: 2021-12-16 00:00:00
 img: /portfolio/assets/TrailsOfGold.jpg
 img_alt: Jeux VR Trails of Gold

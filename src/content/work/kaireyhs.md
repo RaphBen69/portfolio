@@ -1,5 +1,5 @@
 ---
-title: Kaireyhs
+title: Kaireyhs - 2022
 publishDate: 2022-07-15 00:00:00
 img: /portfolio/assets/Kaireyhs.jpg
 img_alt: Jeux VR Kaireyhs

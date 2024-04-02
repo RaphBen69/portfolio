@@ -1,5 +1,5 @@
 ---
-title: Axon - Challenge Your Brain
+title: Axon - Challenge Your Brain - 2017
 publishDate: 2017-08-16 00:00:00
 img: /portfolio/assets/axon.jpg
 img_alt: Bigpoint - Axon

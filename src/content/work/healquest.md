@@ -1,5 +1,5 @@
 ---
-title: HealQuest
+title: HealQuest - 2023
 publishDate: 2023-07-15 00:00:00
 img: /portfolio/assets/HealQuest.jpg
 img_alt: Jeux VR HealQuest
