@@ -24,7 +24,7 @@ tags:
       <li>Implémentation du gameplay
       <li>Intégration des éléments graphiques
       <li>Adaptation dynamique des différentes grilles
-      <li>Mise en place du tutoriel de départ
+      <li>Mise en place des tutoriels
     </ul>
   </p>
 </div>
